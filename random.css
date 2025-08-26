@@ -50,7 +50,33 @@ span.circle._blue {
     font-size: 12px;
     line-height: 1.25em;
 }
+.guide-area {
+    border-bottom: 1px solid #666666;
+    padding: 0 0 10px;
+}
 
+.infomation-area {
+    padding: 10px 0 0;
+}
+
+span._red_text {
+    color: red;
+    padding: 10px 0 0;
+    display: block;
+}
+p.infomation-text {
+    line-height: 1.25em;
+    padding: 0 0 2px;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    line-break: strict;
+}
+p.infomation-text._number_text {
+    padding-top: 5px;
+}
+p.infomation-text._number_text:first-child {
+    padding-top: initial;
+}
 /* entry-contents */
 .main-contents {
     max-width: 640px;
@@ -133,6 +159,9 @@ div#random-button:hover {
 .views-entry-data {
     background-color: #bfbfbf;
     border: 1px solid #ffffff;
+}
+.views-entry-data.result-area{
+    margin: 0 0 15px;
 }
 .views-data div {
     padding: 10px 10px;
