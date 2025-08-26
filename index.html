@@ -16,14 +16,30 @@
         <!-- メインコンテンツ -->
         <div class="main-contents">
             <div class="infomation">
-                <p class="infomation-text">※武器の入力が必ず5つ入力しなくてもよくなりました！</p>
-                <p class="infomation-text">※確率を上げたい場合はその数だけ武器名を入力してください！</p>
+                <div class="guide-area">
+                    <p class="infomation-text _number_text">1.登録したい人の名前、使用したい武器を5種類選択してください。</p>
+                    <p class="infomation-text">(同じ武器を入力した場合は当選確率が上がります。)</p>
+                    <p class="infomation-text _number_text">2.名前と武器を入力したら「情報登録ボタン」を押してください。</p>
+                    <p class="infomation-text">※１と２を登録する人数分行う。</p>
+                    <p class="infomation-text _number_text">3.ルールの抽選では抽選から外すものを削除、当選確率を増やしたいものは追加し情報登録してください。</p>
+                    <p class="infomation-text">※ルールは編集しない場合、デフォルトで設定された5つのルール(ナワバリ、ガチエリア、ガチホコ、ガチヤグラ、ガチアサリ)から抽選されます。</p>
+                    <p class="infomation-text _number_text">4.「抽選開始」ボタンを押して抽選を開始してください。</p>
+                    <p class="infomation-text">※情報は保持されているので「抽選開始」ボタンを押し続けることで何度でも抽選できます。</p>
+                    <p class="infomation-text _number_text">5.情報の変更を行いたい場合は変更したい項目を削除、または変更して「情報登録」ボタンを押すことで更新することができます。</p>
+                    <p class="infomation-text _denger"><span class="_red_text">注意</span></p>
+                    <p class="infomation-text">※サイトの更新を行うと保持されている情報は削除されるので、更新には十分注意してください。</p>
+                </div>
+                <div class="infomation-area">
+                    <p class="infomation-text _title">更新情報</p>
+                    <p class="infomation-text">※武器の入力が必ず5つ入力しなくてもよくなりました！(2025/08/25)</p>
+                    <p class="infomation-text">※登録の際、入力欄が空欄で登録されても正常に動くようになりました！(2025/08/26)</p>
+                </div>
             </div>
             <ul class="input-list">
                 <li class="input-edit" name="A">
                     <h4>登録者１人目</h4>
                     <!-- name:1 -->
-                    <div class="input-text">登録者A：<input type="text" class="js-count-name" name="nameA" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
+                    <div class="input-text">登録者：<input type="text" class="js-count-name" name="nameA" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
                     <!-- buki:1 -->
                     <div class="input-text">武器１：<input type="text" name="buki-01" value="" placeholder="武器を入力してください。(例：わかばシューター)"></div>
                     <!-- buki:2 -->
@@ -38,7 +54,7 @@
                 <li class="input-edit" name="B">
                     <h4>登録者２人目</h4>
                     <!-- name:1 -->
-                    <div class="input-text">登録者B：<input type="text" class="js-count-name" name="nameB" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
+                    <div class="input-text">登録者：<input type="text" class="js-count-name" name="nameB" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
                     <!-- buki:1 -->
                     <div class="input-text">武器１：<input type="text" name="bukiB-01" value="" placeholder="武器を入力してください。(例：わかばシューター)"></div>
                     <!-- buki:2 -->
@@ -53,7 +69,7 @@
                 <li class="input-edit" name="C">
                     <h4>登録者３人目</h4>
                     <!-- name:1 -->
-                    <div class="input-text">登録者C：<input type="text" class="js-count-name" name="nameC" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
+                    <div class="input-text">登録者：<input type="text" class="js-count-name" name="nameC" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
                     <!-- buki:1 -->
                     <div class="input-text">武器１：<input type="text" name="bukiC-01" value="" placeholder="武器を入力してください。(例：わかばシューター)"></div>
                     <!-- buki:2 -->
@@ -68,7 +84,7 @@
                 <li class="input-edit" name="D">
                     <h4>登録者４人目</h4>
                     <!-- name:1 -->
-                    <div class="input-text">登録者D：<input type="text" class="js-count-name" name="nameD" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
+                    <div class="input-text">登録者：<input type="text" class="js-count-name" name="nameD" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
                     <!-- buki:1 -->
                     <div class="input-text">武器１：<input type="text" name="bukiD-01" value="" placeholder="武器を入力してください。(例：わかばシューター)"></div>
                     <!-- buki:2 -->
@@ -83,7 +99,7 @@
                 <li class="input-edit" name="E">
                     <h4>登録者５人目</h4>
                     <!-- name:1 -->
-                    <div class="input-text">登録者E：<input type="text" class="js-count-name" name="nameE" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
+                    <div class="input-text">登録者：<input type="text" class="js-count-name" name="nameE" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
                     <!-- buki:1 -->
                     <div class="input-text">武器１：<input type="text" name="bukiE-01" value="" placeholder="武器を入力してください。(例：わかばシューター)"></div>
                     <!-- buki:2 -->
@@ -98,7 +114,7 @@
                 <li class="input-edit" name="F">
                     <h4>登録者６人目</h4>
                     <!-- name:1 -->
-                    <div class="input-text">登録者F：<input type="text" class="js-count-name" name="nameF" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
+                    <div class="input-text">登録者：<input type="text" class="js-count-name" name="nameF" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
                     <!-- buki:1 -->
                     <div class="input-text">武器１：<input type="text" name="bukiF-01" value="" placeholder="武器を入力してください。(例：わかばシューター)"></div>
                     <!-- buki:2 -->
@@ -113,7 +129,7 @@
                 <li class="input-edit" name="G">
                     <h4>登録者７人目</h4>
                     <!-- name:1 -->
-                    <div class="input-text">登録者G：<input type="text" class="js-count-name" name="nameG" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
+                    <div class="input-text">登録者：<input type="text" class="js-count-name" name="nameG" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
                     <!-- buki:1 -->
                     <div class="input-text">武器１：<input type="text" name="bukiG-01" value="" placeholder="武器を入力してください。(例：わかばシューター)"></div>
                     <!-- buki:2 -->
@@ -128,7 +144,7 @@
                 <li class="input-edit" name="H">
                     <h4>登録者８人目</h4>
                     <!-- name:1 -->
-                    <div class="input-text">登録者H：<input type="text" class="js-count-name" name="nameH" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
+                    <div class="input-text">登録者：<input type="text" class="js-count-name" name="nameH" value="" placeholder="名前を入力してください。(例：山田一郎)"></div>
                     <!-- buki:1 -->
                     <div class="input-text">武器１：<input type="text" name="bukiH-01" value="" placeholder="武器を入力してください。(例：わかばシューター)"></div>
                     <!-- buki:2 -->
@@ -143,7 +159,7 @@
                 <li class="input-edit" name="I">
                     <h4>ルール</h4>
                     <!-- name:1 -->
-                    <div class="input-text">ルール：<input type="text" class="js-count-name" name="nameI" value="ルール" placeholder="ルールを入力してください。(例：ナワバリ)"></div>
+                    <div class="input-text">タイトル：<input type="text" class="js-count-name" name="nameI" value="ルール" placeholder="ルールを入力してください。(例：ナワバリ)"></div>
                     <!-- buki:1 -->
                     <div class="input-text">ルール１：<input type="text" name="bukiI-01" value="ナワバリ" placeholder="ルールを入力してください。(例：ナワバリ)"></div>
                     <!-- buki:2 -->
@@ -175,7 +191,7 @@
                 <div class="random-button js-random-data" id="random-button">抽選開始</div>
             </div>
             <!-- メンバー名とランダムに武器を表示 -->
-            <div class="views-entry-data">
+            <div class="views-entry-data result-area">
                 <div class="views-data">
                     <div id="randomDataA"></div>
                     <div id="randomDataB"></div>
