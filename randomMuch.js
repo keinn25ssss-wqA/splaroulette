@@ -96,19 +96,19 @@ function randomRulet(){
                 let bukiA = new Array();
                 // 武器の値の確認
                 if(newBuki01!=''){
-                    bukiA[0] = newBuki01;
+                    bukiA.push(newBuki01);
                 }
                 if(newBuki02!=''){
-                    bukiA[1] = newBuki02;
+                    bukiA.push(newBuki02);
                 }
                 if(newBuki03!=''){
-                    bukiA[2] = newBuki03;
+                    bukiA.push(newBuki03);
                 }
                 if(newBuki04!=''){
-                    bukiA[3] = newBuki04;
+                    bukiA.push(newBuki04);
                 }
                 if(newBuki05!=''){
-                    bukiA[4] = newBuki05;
+                    bukiA.push(newBuki05);
                 }
                 arrayLength = bukiA.length;//配列の要素数のカウント
                 let bukiNomber = Math.floor(Math.random()*arrayLength);
@@ -122,19 +122,19 @@ function randomRulet(){
                 let bukiB = new Array();
                 // 武器の値の確認
                 if(newBuki01!=''){
-                    bukiB[0] = newBuki01;
+                    bukiB.push(newBuki01);
                 }
                 if(newBuki02!=''){
-                    bukiB[1] = newBuki02;
+                    bukiB.push(newBuki02);
                 }
                 if(newBuki03!=''){
-                    bukiB[2] = newBuki03;
+                    bukiB.push(newBuki03);
                 }
                 if(newBuki04!=''){
-                    bukiB[3] = newBuki04;
+                    bukiB.push(newBuki04);
                 }
                 if(newBuki05!=''){
-                    bukiB[4] = newBuki05;
+                    bukiB.push(newBuki05);
                 }
                 arrayLength = bukiB.length;//配列の要素数のカウント
                 let bukiNomber = Math.floor(Math.random()*arrayLength);
@@ -148,19 +148,19 @@ function randomRulet(){
                 let bukiC = new Array();
                 // 武器の値の確認
                 if(newBuki01!=''){
-                    bukiC[0] = newBuki01;
+                    bukiC.push(newBuki01);
                 }
                 if(newBuki02!=''){
-                    bukiC[1] = newBuki02;
+                    bukiC.push(newBuki02);
                 }
                 if(newBuki03!=''){
-                    bukiC[2] = newBuki03;
+                    bukiC.push(newBuki03);
                 }
                 if(newBuki04!=''){
-                    bukiC[3] = newBuki04;
+                    bukiC.push(newBuki04);
                 }
                 if(newBuki05!=''){
-                    bukiC[4] = newBuki05;
+                    bukiC.push(newBuki05);
                 }
                 arrayLength = bukiC.length;//配列の要素数のカウント
                 let bukiNomber = Math.floor(Math.random()*arrayLength);
@@ -174,19 +174,19 @@ function randomRulet(){
                 let bukiD = new Array();
                 // 武器の値の確認
                 if(newBuki01!=''){
-                    bukiD[0] = newBuki01;
+                    bukiD.push(newBuki01);
                 }
                 if(newBuki02!=''){
-                    bukiD[1] = newBuki02;
+                    bukiD.push(newBuki02);
                 }
                 if(newBuki03!=''){
-                    bukiD[2] = newBuki03;
+                    bukiD.push(newBuki03);
                 }
                 if(newBuki04!=''){
-                    bukiD[3] = newBuki04;
+                    bukiD.push(newBuki04);
                 }
                 if(newBuki05!=''){
-                    bukiD[4] = newBuki05;
+                    bukiD.push(newBuki05);
                 }
                 arrayLength = bukiD.length;//配列の要素数のカウント
                 let bukiNomber = Math.floor(Math.random()*arrayLength);
@@ -200,19 +200,19 @@ function randomRulet(){
                 let bukiE = new Array();
                 // 武器の値の確認
                 if(newBuki01!=''){
-                    bukiE[0] = newBuki01;
+                    bukiE.push(newBuki01);
                 }
                 if(newBuki02!=''){
-                    bukiE[1] = newBuki02;
+                    bukiE.push(newBuki02);
                 }
                 if(newBuki03!=''){
-                    bukiE[2] = newBuki03;
+                    bukiE.push(newBuki03);
                 }
                 if(newBuki04!=''){
-                    bukiE[3] = newBuki04;
+                    bukiE.push(newBuki04);
                 }
                 if(newBuki05!=''){
-                    bukiE[4] = newBuki05;
+                    bukiE.push(newBuki05);
                 }
                 arrayLength = bukiE.length;//配列の要素数のカウント
                 let bukiNomber = Math.floor(Math.random()*arrayLength);
@@ -226,19 +226,19 @@ function randomRulet(){
                 let bukiF = new Array();
                 // 武器の値の確認
                 if(newBuki01!=''){
-                    bukiF[0] = newBuki01;
+                    bukiF.push(newBuki01);
                 }
                 if(newBuki02!=''){
-                    bukiF[1] = newBuki02;
+                    bukiF.push(newBuki02);
                 }
                 if(newBuki03!=''){
-                    bukiF[2] = newBuki03;
+                    bukiF.push(newBuki03);
                 }
                 if(newBuki04!=''){
-                    bukiF[3] = newBuki04;
+                    bukiF.push(newBuki04);
                 }
                 if(newBuki05!=''){
-                    bukiF[4] = newBuki05;
+                    bukiF.push(newBuki05);
                 }
                 arrayLength = bukiF.length;//配列の要素数のカウント
                 let bukiNomber = Math.floor(Math.random()*arrayLength);
@@ -252,19 +252,19 @@ function randomRulet(){
                 let bukiG = new Array();
                 // 武器の値の確認
                 if(newBuki01!=''){
-                    bukiG[0] = newBuki01;
+                    bukiG.push(newBuki01);
                 }
                 if(newBuki02!=''){
-                    bukiG[1] = newBuki02;
+                    bukiG.push(newBuki02);
                 }
                 if(newBuki03!=''){
-                    bukiG[2] = newBuki03;
+                    bukiG.push(newBuki03);
                 }
                 if(newBuki04!=''){
-                    bukiG[3] = newBuki04;
+                    bukiG.push(newBuki04);
                 }
                 if(newBuki05!=''){
-                    bukiG[4] = newBuki05;
+                    bukiG.push(newBuki05);
                 }
                 arrayLength = bukiG.length;//配列の要素数のカウント
                 let bukiNomber = Math.floor(Math.random()*arrayLength);
@@ -278,19 +278,19 @@ function randomRulet(){
                 let bukiH = new Array();
                 // 武器の値の確認
                 if(newBuki01!=''){
-                    bukiH[0] = newBuki01;
+                    bukiH.push(newBuki01);
                 }
                 if(newBuki02!=''){
-                    bukiH[1] = newBuki02;
+                    bukiH.push(newBuki02);
                 }
                 if(newBuki03!=''){
-                    bukiH[2] = newBuki03;
+                    bukiH.push(newBuki03);
                 }
                 if(newBuki04!=''){
-                    bukiH[3] = newBuki04;
+                    bukiH.push(newBuki04);
                 }
                 if(newBuki05!=''){
-                    bukiH[4] = newBuki05;
+                    bukiH.push(newBuki05);
                 }
                 arrayLength = bukiH.length;//配列の要素数のカウント
                 let bukiNomber = Math.floor(Math.random()*arrayLength);
@@ -304,19 +304,19 @@ function randomRulet(){
                 let bukiI = new Array();
                 // 武器の値の確認
                 if(newBuki01!=''){
-                    bukiI[0] = newBuki01;
+                    bukiI.push(newBuki01);
                 }
                 if(newBuki02!=''){
-                    bukiI[1] = newBuki02;
+                    bukiI.push(newBuki02);
                 }
                 if(newBuki03!=''){
-                    bukiI[2] = newBuki03;
+                    bukiI.push(newBuki03);
                 }
                 if(newBuki04!=''){
-                    bukiI[3] = newBuki04;
+                    bukiI.push(newBuki04);
                 }
                 if(newBuki05!=''){
-                    bukiI[4] = newBuki05;
+                    bukiI.push(newBuki05);
                 }
                 arrayLength = bukiI.length;//配列の要素数のカウント
                 let bukiNomber = Math.floor(Math.random()*arrayLength);
@@ -349,19 +349,19 @@ function randomRulet(){
     let bukiI = new Array();
     // 武器の値の確認
     if(newBuki01!=''){
-        bukiI[0] = newBuki01;
+        bukiI.push(newBuki01);
     }
     if(newBuki02!=''){
-        bukiI[1] = newBuki02;
+        bukiI.push(newBuki02);
     }
     if(newBuki03!=''){
-        bukiI[2] = newBuki03;
+        bukiI.push(newBuki03);
     }
     if(newBuki04!=''){
-        bukiI[3] = newBuki04;
+        bukiI.push(newBuki04);
     }
     if(newBuki05!=''){
-        bukiI[4] = newBuki05;
+        bukiI.push(newBuki05);
     }
     arrayLength = bukiI.length;//配列の要素数のカウント
     let bukiNomber = Math.floor(Math.random()*arrayLength);
