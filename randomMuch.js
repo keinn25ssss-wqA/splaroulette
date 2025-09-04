@@ -43,8 +43,10 @@ function entryData(){
     // 登録者情報を出力
     let output = 'data'+ID;
     if(ID=='I'){
+        alert('ルールが登録されました。');
         document.getElementById(output).textContent='登録されるルールは：「'+bukiA+'」'+'「'+bukiB+'」'+'「'+bukiC+'」'+'「'+bukiD+'」'+'「'+bukiE+'」';
     }else{
+        alert(name+'の情報が登録されました。');
         document.getElementById(output).textContent='登録者'+ID+'の名前：'+name+'、使用武器：「'+bukiA+'」'+'「'+bukiB+'」'+'「'+bukiC+'」'+'「'+bukiD+'」'+'「'+bukiE+'」';
     }
 }
