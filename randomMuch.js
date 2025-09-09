@@ -53,17 +53,19 @@ function entryData(){
 
 // ランダムボタン処理
 function randomRulet(){
-    // 配列
-    let idData = Array();
-    idData = {0:'A',1:'B',2:'C',3:'D',4:'E',5:'F',6:'G',7:'H',8:'I'};
+
     // 登録人数を把握
     let countmember = document.querySelectorAll('.js-name-check');
     let countNum = 0;
+    let idArrayData =  Array();
     countmember.forEach((items)=>{
         if(items.value!=''){
+            idArrayData[countNum] = items.id;
             countNum ++;
+            console.log(idArrayData);
         }
     })
+
     // 登録人数分だけ処理
     let NameA = '';
     let NameB = '';
@@ -74,11 +76,33 @@ function randomRulet(){
     let NameG = '';
     let NameH = '';
     let NameI = '';
-
+    
     if(countNum!=0){
-        // 配列を作成
-        for(let i=0;i<countNum;i++){
-            let newId = idData[i];//A,B,C
+        idArrayData.forEach((items)=>{
+            
+            // 存在する名前データを変換
+            let newId = '';// 初期化
+            if(items=='nameA'){
+                newId = 'A';
+            }else if(items=='nameB'){
+                newId = 'B';
+            }else if(items=='nameC'){
+                newId = 'C';
+            }else if(items=='nameD'){
+                newId = 'D';
+            }else if(items=='nameE'){
+                newId = 'E';
+            }else if(items=='nameF'){
+                newId = 'F';
+            }else if(items=='nameG'){
+                newId = 'G';
+            }else if(items=='nameH'){
+                newId = 'H';
+            }else if(items=='nameI'){
+                newId = 'I';
+            }
+
+            // 該当IDの名前と武器情報を取得
             let nameId = 'name'+newId;
             let bukiId01 = 'buki_01_'+newId; 
             let bukiId02 = 'buki_02_'+newId; 
@@ -92,7 +116,8 @@ function randomRulet(){
             let newBuki04 = document.getElementById(bukiId04).value;
             let newBuki05 = document.getElementById(bukiId05).value;
             let arrayLength = 0;//配列の個数
-
+            
+            // 各値をランダムに出力
             if(newId == 'A'){
                 NameA = newName;
                 let bukiA = new Array();
@@ -328,7 +353,8 @@ function randomRulet(){
                     outputHtml.textContent = NameI+'は「'+bukiI[bukiNomber]+'」を使用してください。';
                 }
             }
-        }
+        })
+        
     }
 
     // ルール専用入力判定
