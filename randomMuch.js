@@ -62,7 +62,6 @@ function randomRulet(){
         if(items.value!=''){
             idArrayData[countNum] = items.id;
             countNum ++;
-            console.log(idArrayData);
         }
     })
 
